@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="bootstrap-4.0.0-beta/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+
+    <title>PORTFOLIO PAGE using Bootstrap</title>
+
+    <!-- Turn on the smooth scroll with the help of jquery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- The end of the script -->
+    
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- ajax library for social icons (contact form) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+  </head>
+<!-- Body start -->
+<body>
+<header id="back">PORTFOLIO</header>
+  
+    <!--Navbar start-->
+    <nav style="background-color:white" class="navbar navbar-expand-md bg-primary navbar-dark fixed-top collapse navbar-collapse">
+      
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="https://twitter.com/sbordovski" target="_blank">Sviatoslav Bordovski</a>
+      
+      <!-- Collapse button start -->
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collapse button end -->
+     
+      <!-- Collapsible content start -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        
+        <!-- Links start -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#About" onclick="scrollToAbout()">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Projects" onclick="scrollToProjects()">Projects </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact" onclick="scrollToContact()">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-warning my-2 my-sm-0" type="submit"><a href="https://www.google.com" target="_blank"> Search</a></button>
+        </form>
+      </div>      <!-- Collapsible content start -->
+      
+    </nav>    <!--Navbar end-->
+  
+      
+<!-- START THE ABOUT section-->
+
+      <div style="padding-top: 70px;" class="row featurette" id="About">
+        <div class="col-md-8">
+          <h1>ABOUT</h1>
+          <p class="lead" style="text-align: left;">Greetings everyone! 
+          <br>
+            I'm Sviatoslav Bordovski. Currently, I am a junior front-end developer on FreeCodeCamp. Learning web development on coursera and udemy as well. Feel free to contact me using social media icons below ☺</p>
+        </div>
+        <div class="col-md-4">
+          <img class="rounded-circle featurette-image img-fluid mx-auto" src="https://pbs.twimg.com/profile_images/1017323807219085312/e8wLCCJj_400x400.jpg" alt="Photo" width="250px" height="350px">
+        </div>
+      </div>
+
+<!-- /END THE ABOUT -->
+
+      <hr width=75% size=2>
+
+<!-- Container START -->
+<div class="container marketing" id="Projects">
+
+    <h3>PROJECTS</h3>
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://www.freeiconspng.com/uploads/git-github-hub-icon-25.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>First</h2>
+          <p>Description of the project</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://www.freeiconspng.com/uploads/git-github-hub-icon-25.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Second</h2>
+          <p>Description of the project</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://www.freeiconspng.com/uploads/git-github-hub-icon-25.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Third</h2>
+          <p>Description of the project</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+      </div><!-- /.row -->
+      
+       <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://www.freeiconspng.com/uploads/git-github-hub-icon-25.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Fourth</h2>
+          <p>Description of the project</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://www.freeiconspng.com/uploads/git-github-hub-icon-25.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Fifth</h2>
+          <p>Description of the project</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://www.freeiconspng.com/uploads/git-github-hub-icon-25.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Sixth</h2>
+          <p>Description of the project</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+      </div><!-- /.row -->
+      
+      <hr width=75% size=2>
+
+      <!-- START Contact -->
+
+ <div class="contact social" id="Contact"><h2>CONTACT</h2>
+   <div align="center" class="socialbtns">
+      <ul>
+      <li><a href="https://www.facebook.com/sbordovski" class="fa fa-lg fa-facebook" target="_blank"></a></li>
+      <li><a href="https://www.twitter.com/sbordovski" class="fa fa-lg fa-twitter" target="_blank"></a></li>
+      <li><a href="https://github.com/SviatoslavBordovski" class="fa fa-lg fa-github" target="_blank"></a></li>
+      <li><a href="https://www.linkedin.com/in/sviatoslavbordovski/" class="fa fa-lg fa-linkedin" target="_blank"></a></li>
+      <li><a href="https://www.instagram.com/sbordovski" class="fa fa-lg fa-instagram" target="_blank"></a></li>
+      </ul>
+      <h5><a href="#back" onclick="scrollToHeader()">↑ smooth scroll back to top ↑</a></h5>
+     </div>
+         
+</div>    <!-- END THE Contact -->
+                        
+  </div> <!-- END container -->
+    
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">Sviatoslav Bordovski &copy; 2018. All rights reserved.</div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+  
+  </body> <!-- Body end -->
+
+</html>
+
