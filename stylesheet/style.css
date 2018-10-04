@@ -4,15 +4,15 @@ nav 	{
 	}
 
 /* Yellow banner stripe */
-#back {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
-  text-align: center;
-  color: black;
-  background-color: yellow;
-  background-size: cover;
-}
+#back 	{
+  	padding-top: 40px;
+  	padding-bottom: 20px;
+  	margin-bottom: 30px;
+  	text-align: center;
+  	color: black;
+  	background-color: yellow;
+  	background-size: cover;
+	}
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
