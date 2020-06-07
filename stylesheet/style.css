@@ -52,8 +52,7 @@ body {
 }
 
 
-/* MARKETING CONTENT
--------------------------------------------------- */
+/* MARKETING CONTENT */
 /* Center align the text within the three columns below the carousel */
 
 .container .row {
@@ -89,7 +88,7 @@ body {
   margin-left: .75rem;
 } 
 
-/* RESPONSIVE CSS */
+/* RESPONSIVE CSS START */
 
 @media (max-width: 768px) {
   /* responsive menu list */
