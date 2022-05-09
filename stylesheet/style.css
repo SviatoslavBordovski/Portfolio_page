@@ -9,16 +9,11 @@ nav 	{
   	padding-bottom: 20px;
   	margin-bottom: 30px;
   	text-align: center;
+	font-weight: bold;
   	color: #000;
   	background-color: yellow;
   	background-size: cover;
 	}
-
-.smoothScroll {
-  text-decoration: none;
-  font-family: Segoe UI;
-  margin: 24px;
-}
 
 /* GLOBAL STYLES */
 
